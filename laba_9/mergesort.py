@@ -33,3 +33,4 @@ def merge_sort4(m):
  last = merge_sort4(last)
  # Merge and return
  return list(merge(first, second, third, last))
+
